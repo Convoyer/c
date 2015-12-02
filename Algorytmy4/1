@@ -1,0 +1,22 @@
+#include <iostream> 
+#include <windows.h>
+using namespace std;
+int n;
+char choose;
+int main() {
+	do 
+	{
+	system("cls");
+	cout<<"Wprowadz liczb: "<<endl;
+	cin>>n;
+	if (n&1) cout<<"liczba nie parzysta"<<endl; 
+	else cout<<"liczba parzysta"<<endl;
+	cout<<"Czy chcesz kontynuowac? [T/N]"<<endl;
+	cin>>choose;
+	
+}
+	while (choose=='T'||'t');
+	
+	
+	return 0;
+}
